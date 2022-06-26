@@ -1,0 +1,48 @@
+h1[disabled]{
+    pointer-events: none;
+    opacity: 0.7%;
+}
+
+.att-check-outer-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.att-check-label{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.att-check-inner-container1{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.att-check-date{
+    height: 25px;
+    width: 110px;
+    border-radius: 8px;
+    padding-left: 15px;
+    border: 2px solid #383838;
+}
+
+.att-check-button{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid #383838;
+    background-color: white;
+}
+
+
+.att-check-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px #383838;
+}

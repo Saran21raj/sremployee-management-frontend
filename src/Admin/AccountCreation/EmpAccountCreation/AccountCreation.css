@@ -1,0 +1,66 @@
+
+
+.admin-account-creation-outer-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.admin-account-creation-inner-container1{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.admin-account-creation-editbox{
+    height: 25px;
+    width: 130px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+.admin-account-creation-button{
+    height: 30px;
+    width: 130px;
+    border-radius: 8px;
+    border: 1px solid #383838;
+    background-color: white;
+}
+.admin-records{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.admin-account-creation-button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px #383838;
+}
+
+.admin-account-creation-inner-container2{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.accountCreation-table{
+    width: 60%;
+}
+
+@media(max-width:900px){
+    .admin-account-creation-inner-container1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:15px;
+    }
+    .admin-account-creation-label{
+        margin: 0;
+    }
+    .admin-records{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .accountCreation-table{
+        width: 100%;
+    }
+}

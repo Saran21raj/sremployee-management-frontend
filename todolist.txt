@@ -1,0 +1,32 @@
+
+
+
+
+
+1) Admin signin. ---Done
+
+2) Employee account creation by Admin. ---Done
+
+3) Employee signin. ---Done
+
+4) Employee Leave request. ---Done
+
+5) Employee Leave Status by Admin. ---Done --accepted p tag and declined p tag remaining
+
+6) Employee Attendance. ---Done
+
+7) Employee Attendance Check by Admin.
+
+
+
+front end:
+
+1) empintro.
+
+2) emp Attendance.
+
+3) admin Attendance.
+
+4) emp Leave request.
+
+5) admin Leave request.

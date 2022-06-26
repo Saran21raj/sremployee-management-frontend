@@ -1,0 +1,128 @@
+
+.emp-nwLeave-outer-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.emp-leav-label{
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.emp-nwLeave-inner-container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+}
+.emp-nwLeave-inner-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+.emp-nwLeave-date{
+    height: 30px;
+    width: 120px;
+    padding-left: 15px;
+    border: 2px solid #383838;
+    border-radius: 8px;
+}
+
+.emp-nwLeave-reason{
+    border: 2px solid #383838;
+    border-radius: 8px;
+    padding:10px;
+}
+
+.emp-nwLeave-button{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid #383838;
+    border-radius: 8px;
+    margin-left: 250px;
+}
+
+.emp-nwLeave-button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #383838;
+}
+
+.emp-nwLeave-upt{
+    margin: 5px;
+    color: green;
+}
+
+.emp-nwLeave-err{
+    margin: 5px;
+    color: red;
+}
+.emp-nwLeave-date-container{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.emp-nwLeave-err-container{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.emp-nwLeave-main-label{
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0;
+    justify-content: center;
+}
+@media(max-width:700px){
+    .emp-nwLeave-inner-container1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+@media(max-width:550px){
+    .emp-nwLeave-reason{
+        height: 70px;
+        width: 200px;
+    }
+    .emp-nwLeave-button{
+        margin-left: 135px;
+    }
+    .emp-nwLeave-err-container{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}
+@media(max-width:380px){
+    .emp-nwLeave-reason{
+        height: 50px;
+        width: 150px;
+    }
+    .emp-nwLeave-button{
+        margin-left: 115px;
+    }
+    .emp-nwLeave-err-container{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .emp-nwLeave-main-label{
+        font-size: 20px;
+    }
+    .emp-leav-label{
+        font-size: 20px;
+    }
+    .emp-nwLeave-upt{
+        font-size: 15px;
+    }
+    
+    .emp-nwLeave-err{
+        font-size: 15px;
+    }
+}
